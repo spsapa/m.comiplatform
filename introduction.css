@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+:root {
+--background-color:#f5a5af 
+}
+.infor1 h1 {
+margin: 0 auto;
+width: 100%;
+display: block;
+margin:3px;
+font-family: 'Noto Sans KR', sans-serif;
+background-color: var(--background-color) ;
+height: auto;
+}
+
+::selection {
+  background-color: rgba(220, 220,220, 0.6);
+}
+strong {
+  color:red;
+}
+::selection {
+  background-color: rgba(220, 220,220, 0.6);
+}
